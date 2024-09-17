@@ -1,0 +1,155 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.navbar-container {
+    background-color:#333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+display: flex;
+height: 60px;
+justify-content: center;
+align-items: center;
+}
+
+.list-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.list-navbar:hover {
+    background-color: cyan;
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+ background-color: #f7f7f7;
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+ height: 80vh;
+}
+
+.a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font size: 30px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 70px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    width: 250;
+    height: 250;
+}
+
+.container-footer {
+    height: 10vh;
+background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;]
+}
+
+.h1-footer {
+font-size: 30px;
+}
+
+.container-ulp {
+background-color: aqua;
+list-style-type: none;
+     display: flex;
+height: 60px;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
+
+.container-li {
+    border: 2px solid #333;
+}
+
+.content-sold {}
+
+.a-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.b-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.c-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.d-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.e-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.f-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.g-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300;
+    height: 3000;
+}
